@@ -14,9 +14,18 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@tweenjs/tween.js": "^18.4.2",
     "axios": "^0.18.0",
+    "d3-array": "^2.3.3",
+    "dagre-d3": "^0.6.3",
+    "drag-controls": "^1.0.4",
     "echarts": "^4.1.0",
     "element-ui": "^2.5.4",
+    "three": "^0.109.0",
+    "three-dragcontrols": "^0.88.2",
+    "three-orbit-controls": "^82.1.0",
+    "three-spritetext": "^1.1.1",
+    "three-transform-controls": "^1.0.4",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.1.0"
@@ -41,6 +50,7 @@
     "copy-webpack-plugin": "^4.0.1",
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.11",
+    "d3": "^5.12.0",
     "eslint": "^4.15.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-friendly-formatter": "^3.0.0",
